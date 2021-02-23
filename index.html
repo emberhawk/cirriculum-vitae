@@ -2,60 +2,173 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Neil Mckenna | CSS Site</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <title>Neil's Site</title>
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #66CCFF;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#big-heading">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#news">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#gameList">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
 
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud.png">
+    <div id="big-heading" class="top-container">
+
       <h1>Hi, I'm Neil.</h1>
-      <h2>an aspiring game & web developer</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud.png">
-      <img src="images/mountain.png" alt="mountain.png">
+      <h2>I'm aspiring to become a</h2>
+      <h2>Game & Web Developer</h2>
+      <img class="cloud top-cloud" src="images/cloud.png" alt="cloud.png">
+      <img class="cloud bottom-left-cloud" src="images/cloud.png" alt="cloud.png">
+      <img class="my-hill" src="images/mountain.png" alt="arthurs seat image">
+      <img class="cloud bottom-right-cloud" src="images/cloud.png" alt="cloud.png">
+      <img class="cloud bottom-far-right-cloud" src="images/cloud.png" alt="cloud.png">
     </div>
-    <div class="middle-container">
+    <div class="container">
+      <h1 class="bg-danger mt-4">Disclaimer! this website is currently under development and constant design review and refactor</h1>
+      <p>Please consider there maybe issues until further down the development process </p>
+
+    </div>
+    <div class="middle-container container">
       <div class="profile">
         <img class="my-img" src="images/circle-cropped.png" alt="circle-cropped.png">
-        <h2>Hello.</h2>
-        <p class="intro">I am an IT graduate from Edinburgh currenty seeking employment or a project</p>
+        <h2 class="mt-2 mb-2">Neil Mckenna </h2>
+        <br>
+        <h3>Hmmm, Who am I?</h3>
+        <br>
+        <h4 class="mb-2">Well I'm ! <em> a web/game developer</em> || a <em>programmer</em> & || even a coder</h4>
+        <h5 class="mb-2 mt-2"><strong>But I've believe I have the capacity to become one</strong></h5>
+        <h5>Though I,ve not worked in any of these fields professionally, I was hoping to change that. Currently looking for an entry position or a mini project to bolster my credibility.</h5>
       </div>
+      <br>
       <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="code-img" src="images/computer.png" alt="computer.png">
-          <h3>Lorem & Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      <div class="container">
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="code-img" src="images/computer.png" alt="computer.png">
+            <h3>Coding</h3>
+            <p>I have learned and practised a variety of coding languages</p>
+          </div>
+          <div class="skill-row">
+            <img class="chilli-img" src="images/chillies.png" alt="chillies.png">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
         </div>
-        <div class="skill-row">
-          <img class="chilli-img" src="images/chillies.png" alt="chillies.png">
-          <h3>Lorem Ipsum Dolor</h3>
-          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-        </div>
+        <h4 >Want to know more <a  class="btn btn-primary" href="about.html">About Me</a></h4>
+
       </div>
+      <br>
       <hr>
-      <div  id="gameList" class="">
+      <div class="container">
+        <div id="news">
+          <h2 class="fancy">Recent News</h2>
+          <br>
+          <h3 class="bg-warning">due to coronavirus &#x1f9a0; I was made redundant from my helpdesk role.</h3>
+          <br>
+          <h5>Since then I have been at home studying a wide variety of knowledge and new skills.</h5>
+          <br>
+          <h5>Below is a list of Udemy courses / Books / Online Tutorials I have been learning about in the last 6-8 months</h5>
+          <br>
+          <hr>
+          <h4 class="fancy" >Web Development</h4>
+          <ul>
+            <li class="pro">Dissecting Ruby on Rails 5</li>
+            <li class="pro">Try Django 2.2 - Web Development with Python 3.6+</li>
+            <li class="pro">The Complete 2021 Web Development Bootcamp(currently working on)</li>
+          </ul>
+          <h4 class="fancy" >Game Development</h4>
+          <ul>
+            <li class="pro">Complete C# Unity Game Developer 2D</li>
+            <li class="pro">Complete C# Unity Game Developer 3D (still bonus projects to go)</li>
+            <li class="pro">RPG Core Combat Creator: Learn Intermediate Unity C# Coding</li>
+            <li class="pro">Make 2D Art for Video Games Using GIMP</li>
+            <li class="pro">Create Your Own Character in Blender</li>
+            <li class="pro">Learn Math for Video Game Design & Coding through Solving fun Video Game Problems</li>
+            <li class="pro">Mathematics for Computer Games Development using Unity</li>
+            <li class="pro">Become a Game Designer the Complete Series Coding to Design</li>
+            <li class="pro">Unity Multiplayer: Intermediate C# Coding & Networking</li>
+            <li class="pro">Design Patterns for Game Programming</li>
+          </ul>
+          <h4 class="fancy">Programming</h4>
+          <ul>
+            <li class="pro">Complete C# Masterclass</li>
+          </ul>
+
+          <h4 class="fancy" >Operating Systems</h4>
+          <ul>
+            <li class="pro">Complete Linux Training Course to Get Your Dream IT Job 2021</li>
+            <li class="pro">Linux Shell Scripting: A Project-Based Approach to Learning</li>
+            <li class="pro">Linux Mastery: Master the Linux Command Line in 11.5 Hours</li>
+          </ul>
+
+          <h4 class="fancy" >Courses currently studying</h4>
+          <ul>
+            <li class="pro">The Complete 2021 Web Development Bootcamp</li>
+            <li class="pro">Learn to Write Unity Compute Shaders</li>
+            <li class="pro">Procedural Terrain Generation with Unity</li>
+            <li class="pro">Learn Unity's Entity Component System to Optimise Your Games</li>
+            <li class="pro">Complete Blender Creator: Learn 3D Modelling for Beginners</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <hr>
+      <div id="gameList" class="container">
         <p>Check the links below to see a few examples of things im working on, these are all tutorials driven games </p>
         <p>Disclaimer there were intended to be built for PC so use a keyboard and mouse</p>
-        <ul>
-            <li><a href="games/rocket.html">Older Project Boost</a></li>
-            <li><a href="games/space-invaders.html">Space Invaders</a></li>
-            <li><a href="games/garden.html">Plants v Zombies</a></li>
-            <li><a href="games/tiles.html">Tilevania</a></li>
-            <li><a href="games/blocky.html">Blockbreaker</a></li>
-            <li><a href="games/zombies.html">Zombie shooter</a></li>
+
+        <ul class="list-group">
+          <li class="list-group-item"><a class="btn btn-info" href="games/rocket.html">Rocket Boost</a></li>
+          <li class="list-group-item"><a class="btn btn-info" href="games/space-invaders.html">Space Invaders</a></li>
+          <li class="list-group-item"><a class="btn btn-info" href="games/garden.html">Plants v Zombies</a></li>
+          <li class="list-group-item"><a class="btn btn-info" href="games/tiles.html">Tilevania</a></li>
+          <li class="list-group-item"><a class="btn btn-info" href="games/blocky.html">Blockbreaker</a></li>
+          <li class="list-group-item"><a class="btn btn-info" href="games/zombies.html">Zombie shooter</a></li>
         </ul>
 
       </div>
-      <hr>
-      <div class="contact-me">
+
+      <div class="container">
         <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p class="contact-message">Feel free to contact me to discuss things.</p>
+        <p class="contact-message">Feel free to contact me to discuss job role or potential projects.</p>
         <a class="BUTTON_QVD" href="contact.html">CONTACT ME</a>
       </div>
     </div>
@@ -64,7 +177,7 @@
     <div class="bottom-container">
       <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
       <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <a class="footer-link" href="https://neilmckenna-portfolio.herokuapp.com/">My Ruby on Rails Website(not finished)</a>
       <p class="copyright"> © 2021 Neil Mckenna.</p>
     </div>
 

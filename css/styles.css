@@ -65,12 +65,7 @@ a:hover{
   padding-top: 100px;
 }
 
-.middle-container {
-  margin: 5rem 0px;
-  padding: 50px auto;
 
-
-}
 .bottom-container {
   padding: 50px 0px 20px;
   background-color: #66CCFF;
@@ -81,12 +76,29 @@ a:hover{
   padding: 1rem auto;
   background-color: #f8f8f8;
   border-radius: 12px;
+  margin: 20px auto;
 
 }
 
 .container-fluid{
   margin: 10px auto 50px auto;
 }
+
+.card {
+  margin: 30px auto;
+}
+.card-title {
+  padding: 1rem;
+}
+
+.card > iframe {
+  margin: auto;
+}
+
+.card-body > li{
+  padding: 0.7rem;
+}
+
 
 /* other classes */
 
@@ -151,6 +163,7 @@ a:hover{
   margin: 10px auto;
   padding: 1em;
   width: 75%;
+  background-color: forestgreen;
 }
 
 
@@ -253,7 +266,7 @@ a:hover{
    border-radius: 10px;
    color: #FFFFFF;
    font-family: Helvetica, sans-serif;
-   font-size: 2rem;
+   font-size: 1.3rem;
    font-weight: 500;
    padding: 0.7rem 2rem;
    background-color: #66BFBF;

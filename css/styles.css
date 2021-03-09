@@ -332,3 +332,52 @@ a:hover{
 .form-group > label {
   padding-bottom: 0.5em;
 }
+
+/* blogpost */
+
+.non-blog-post{
+  padding: 2rem 1rem;
+  margin: 2rem 1rem 1rem;
+  font: 1.5rem;
+  background-color: #0099cc;
+  border-radius: 5px;
+  text-align: left;
+
+}
+
+.blog-post {
+  padding: 2rem 1rem;
+  margin: 2rem 1rem;
+  font: 1.5rem;
+  background-color: #ffffcc;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 1;
+
+}
+
+.blog-post > h1 {
+  text-decoration: underline !important;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+
+.blog-post > h2 {
+  padding: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+
+}
+
+.blog-post > p{
+    padding:  0.5rem 1rem;
+    margin: 0;
+}
+
+.blog-link{
+  color: navy !important;
+  margin: 0 0.25rem;
+  padding: 0 1rem;
+
+}

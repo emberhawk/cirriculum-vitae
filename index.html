@@ -1,134 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    <title>Neil's Site</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #66CCFF;">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html#big-heading">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cv.html">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html#news">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#gameList">Games</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <!-- navbar end -->
 
-    <div id="big-heading" class="top-container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Neil Mckenna & Bootstrap contributors">
+  <meta name="generator" content="">
+  <title>Neil's Website</title>
 
-      <h1>Hi, I'm Neil.</h1>
-      <h2>I'm aspiring to become a</h2>
-      <h2>Game & Web Developer</h2>
-      <img class="cloud top-cloud" src="images/cloud.png" alt="cloud.png">
-      <img class="cloud bottom-left-cloud" src="images/cloud.png" alt="cloud.png">
-      <img class="my-hill" src="images/mountain.png" alt="arthurs seat image">
-      <img class="cloud bottom-right-cloud" src="images/cloud.png" alt="cloud.png">
-      <img class="cloud bottom-far-right-cloud" src="images/cloud.png" alt="cloud.png">
-    </div>
-    <div class="col-md-8 mx-auto  container">
-      <p>Arthur's Seat?</p>
-      <h5 class="bg-warning mt-4">Disclaimer! this website is currently under development and constant design review and refactor</h5>
-      <p>FYI there maybe issues until further down the development process </p>
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400&display=swap" rel="stylesheet">
 
-    </div>
-    <div class="col-md-8 mx-auto mb-4 container">
-      <div class="profile">
-        <img class="my-img" src="images/circle-cropped.png" alt="circle-cropped.png">
-        <h2 class="mt-2 mb-2">Neil Mckenna </h2>
-        <br>
-        <h3>Hmmm, Who am I?</h3>
-        <br>
-        <h4 class="mb-2">Well I'm ! <em> a web/game developer</em> || a <em>programmer</em> & || even a coder</h4>
-        <h5 class="mb-2 mt-2"><strong>But I've believe I have the capacity to become one</strong></h5>
-        <h5>Though I've not worked in any of these fields professionally, I was hoping to change that. Currently looking for an entry position or a mini project to bolster my credibility.</h5>
-      </div>
-      <br>
-      <hr>
-      <div class="container">
-        <div class="skills">
-          <h2>My Skills</h2>
-          <div class="skill-row">
-            <img class="code-img" src="images/computer.png" alt="computer.png">
-            <h3>Coding</h3>
-            <p>I have learned and practised a variety of coding languages</p>
-          </div>
-          <div class="skill-row">
-            <img class="chilli-img" src="images/chillies.png" alt="chillies.png">
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-          </div>
-        </div>
-        <h4 >Check out my CV to learn more <a  class="btn btn-primary" href="cv.html">About Me</a></h4>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
 
-      </div>
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
 
 
-      <hr>
-      <div id="gameList" class="container">
-        <p>Check the links below to see a few examples of things im working on, these are all tutorials driven games </p>
-        <p>Disclaimer there were intended to be built for PC so use a keyboard and mouse</p>
+  <!-- Custom styles for this template -->
+  <link href="css/offcanvas.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
+</head>
 
-        <ul class="list-group">
-          <li class="list-group-item"><a class="btn btn-info" href="games/rocket.html">Rocket Boost</a></li>
-          <li class="list-group-item"><a class="btn btn-info" href="games/space-invaders.html">Space Invaders</a></li>
-          <li class="list-group-item"><a class="btn btn-info" href="games/garden.html">Plants v Zombies</a></li>
-          <li class="list-group-item"><a class="btn btn-info" href="games/tiles.html">Tilevania</a></li>
-          <li class="list-group-item"><a class="btn btn-info" href="games/blocky.html">Blockbreaker</a></li>
-          <li class="list-group-item"><a class="btn btn-info" href="games/zombies.html">Zombie shooter</a></li>
-          <li class="list-group-item"><a class="btn btn-info" href="games/minecraft.html">Minecraft Clone</a></li>
+<body class="bg-light">
+
+  <!-- navbar start -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-navy" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Neil Mckenna</a>
+      <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="games.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="drums/index.html">Drums</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cv.html">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
-
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
+    </div>
+  </nav>
 
-      <div class="container mt-3">
-        <h2>Get In Touch</h2>
-        <p class="contact-message">Feel free to contact me to discuss job role or potential projects.</p>
-        <a class="BUTTON_QVD" href="contact.html">CONTACT ME</a>
+  <div class="nav-scroller bg--body shadow-sm">
+    <nav class="nav nav-underline" aria-label="Secondary navigation">
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <a class="nav-link" href="blog.html">Blog</a>
+      <a class="nav-link" href="games.html">Games</a>
+      <a class="nav-link" href="drums/index.html">Drums</a>
+      <a class="nav-link" href="cv.html">CV</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+
+    </nav>
+  </div>
+  <!-- nav end -->
+
+  <main class="container bg-lightgrey rounded mt-4 p-2">
+    <div class="d-flex align-items-center p-3 my-2 mx-1 text-white bg-teal rounded shadow-sm">
+      <img class="me-3" src="images/circle-cropped.png" alt="" width="48" height="48">
+      <div class="lh-1">
+        <h1 class="h6 mb-0  text-white lh-1 px-2">It's a me!</h1>
+        <small class="px-2">Been making, breaking & fixing things since 1984</small>
       </div>
     </div>
 
+    <div class="my-3 p-3 bg-body mt-2 mx-1 rounded shadow-sm bg-light">
+      <h6 class="border-bottom pb-2 mb-0">Recent updates</h6>
+      <div class="d-flex text-muted pt-3">
 
-    <footer class="bottom-container mb-4">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="#">Back To Top</a>
-      <p class="copyright"> © 2021 Neil Mckenna.</p>
-    </footer>
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">Github Pages Website Creation</strong>
+          Currently trying to make a showcase/cv website(this one) to show off my skills and things I have been learning about.
+        </p>
+      </div>
+      <div class="d-flex text-muted pt-3">
+
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">Minecraft Clone</strong>
+          Recently finished a minecraft clone from one of my voxel courses. I have added it to the game section.
+          It's better basic and was made in Unity. I exported it as a webGl project and using an iframe to link it to my site. You can dig and put a selection of blocks down. There is procedural generation and so on.
+          Head to the games section to find out.
+        </p>
+      </div>
+      <div class="d-flex text-muted pt-3">
+
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">Homebrew</strong>
+          Been making cider and beer at home.
+        </p>
+      </div>
+      <div class="d-flex text-muted pt-3">
+
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">Ruby on Rails Website</strong>
+          Created a Ruby on Rails website with one of my course. Here is a link if you wanna check it out. <a href="https://neilmckenna-portfolio.herokuapp.com/">Ruby on Rails Website</a>. A heads up it can take a little time to load as its on a free heroku account.
+          It took several weeks and I learned alot about the Ruby on Rails framework.
+          Unfortunately I felt it was a bit over complicated for what I wanted to use it for.
+          Which is effectively to show off some of the game development stuff. So its not finished I am just putting up to prove that I can make a RoR website and deploy it to the web.
+        </p>
+      </div>
+      <div class="d-flex text-muted pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">Studies</strong>
+          I have been at home from the last 6-8 months studying Web & Game Development with the intention to transition into a new career direction.
+        </p>
+      </div>
+      <div class="d-flex text-muted pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">Redundancy</strong>
+          I was made redundant for my Tech Support Role at edfringe(red61) due to the impact of coronavirus &#129440; on the tourism sector.
+        </p>
+      </div>
+
+      <small class="d-block text-end mt-3">
+        <a href="#">All updates</a>
+      </small>
+    </div>
+
+  </main>
 
 
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/offcanvas.js"></script>
+</body>
+
 </html>

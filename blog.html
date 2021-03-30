@@ -39,13 +39,14 @@
     }
 
     pre {
-      overflow: auto;
+      overflow: anywhere;
     }
 
     pre>code {
       display: block;
       padding: 1rem;
       word-wrap: normal;
+
     }
 
     ul {
@@ -158,7 +159,7 @@
             <li>Complete - Master Procedural Maze & Dungeon Generation Course</li>
           </ul>
 
-        </div>
+
 
       </div>
 
@@ -187,17 +188,19 @@
           <h3>Things I made on the courses.</h3>
           <p>Here is are some of the results from these tutorials</p>
           <br>
-          <div class="mx-auto">
-            <video width="480" height="320" controls loop autoplay>
-              <source src="videos/trimmed-waves.mp4" type="video/mp4">
-
-            </video>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-repsponsive-item"  src="videos/trimmed-waves.mp4" title="shader waves" allowfullscreen></iframe>
+          </div>
+          <div class="container pt-4">
             <p>This is actually made with just computer fragment shaders and 2 textures in unity. </p>
             <p>I have captured at an angle and it looks quite impressive.</p>
             <div class="">
               <p>Here is the waves shader code</p>
               <p>I thought I would show as an example as a reference as such.</p>
               <p>I didn't write this, but with the course I have a decent understanding of how it works.</p>
+
+          </div>
+
               <br>
               <hr>
               <figure>
@@ -280,21 +283,20 @@ Shader "Holistic/Waves"
               </figure>
 
             </div>
+          
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-repsponsive-item"  src="videos/trimmed-stars.mp4" title="Compute shader stars" allowfullscreen></iframe>
+          </div>
+          <div class="container pt-4">
+            <p>This is not my code this is from Nik Lever course.</p>
+            <p>I though I would show to give context on how teh starts works.</p>
+            <p>The C# cs code on CPU side passes releveant data to GPU compute shader code.
+              e.g Time variables, kernel, Compute buffer size, the stars Prefab gameobject. </p>
+            <p>The compute shader using a sudo random function it take the data render the starting position and sends out the &#x2B50; in many directions, once they reach the edge of the circle they reverse the vector/direction, which keeps the
+              &#x2B50; bouncing &#8734;.</p>
           </div>
 
-          <div class="mx-auto">
-            <video width="480" height="320" controls loop autoplay>
-              <source src="videos/trimmed-stars.mp4" type="video/mp4">
-
-            </video>
-            <p>This is a orbating stars rendered with compute shaders.</p>
-          </div>
-          <p>This is not my code this is from Nik Lever course.</p>
-          <p>I though I would show to give context on how teh starts works.</p>
-          <p>The C# cs code on CPU side passes releveant data to GPU compute shader code.
-            e.g Time variables, kernel, Compute buffer size, the stars Prefab gameobject. </p>
-          <p>The compute shader using a sudo random function it take the data render the starting position and sends out the &#x2B50; in many directions, once they reach the edge of the circle they reverse the vector/direction, which keeps the
-            &#x2B50; bouncing &#8734;.</p>
           <br>
           <hr>
           <figure>
@@ -500,7 +502,9 @@ Result[id.x] = pos * 2;
 
         </div>
 
-      </div>
+        </div><!-- card-body -->
+
+      </div><!-- blog-post -->
 
     </div>
 

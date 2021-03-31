@@ -1,0 +1,43 @@
+.home {
+  background: linear-gradient(45deg, rgba(29,224,153,0.8), rgba(29,200,205,0.8)) , url(../images/intro-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+body {
+  overflow-x: hidden;
+}
+
+.btn_white {
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.line {
+  height: 3px;
+  width: 20vw;
+  background-color: rgba(29,224,153,0.8);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#gray_white {
+  background-color: #eff5f5;
+}
+
+.call_in_action {
+  background-image: url(../images/call-to-action-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.btn_price_1 {
+  border: none;
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0);
+  border-radius: 10px;
+  font-size: 25px;
+
+}

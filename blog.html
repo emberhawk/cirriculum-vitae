@@ -10,9 +10,8 @@
   <title>Neil's Website</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <style>
@@ -134,6 +133,22 @@
 
     </div>
     <br>
+    <aside class="">
+      <div class="container">
+        <nav aria-label="breacdcrumb" style="--bs-breadcrumb-divider: '>';">
+          <ol class="breadcrumb mt-2 mb-2">
+            <li class="breadcrumb-item active" aria-current="page">
+              <a href="#">Blog Home</a>
+            </li>
+            <li class="breadcrumb-item" aria-current="page">
+              <a href="#shaders">Shaders</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </aside>
+
+
     <hr>
 
     <div class="blog-post">
@@ -157,9 +172,12 @@
               <p>My objective to reach a point of tech expertise regrading game development I could make a respectable video game or to be hired the tech industry.</p>
               <br>
               <ol>
-                <li><h3>Maths Orientated</h3></li>
-                <p>Most of these subjects are high school level. I am playing catch up since I was truant during alot of these years. Its always a good refresher and fundamental to working out problems and programming in 3d space. Some these maths subjects are not to be sniffed as factoring poly & trinomials is certaintly not an easy feat. Also algebra is basically programming.</p>
-                <ul style="list-style: inside square;");>
+                <li>
+                  <h3>Maths Orientated</h3>
+                </li>
+                <p>Most of these subjects are high school level. I am playing catch up since I was truant during alot of these years. Its always a good refresher and fundamental to working out problems and programming in 3d space. Some these maths
+                  subjects are not to be sniffed as factoring poly & trinomials is certaintly not an easy feat. Also algebra is basically programming.</p>
+                <ul style="list-style: inside square;" );>
                   <li>Master Math by Coding in Python</li>
                   <li>Become a Linear Algrebra Master</li>
                   <li>Become a Trigonometry Precalculus Master</li>
@@ -168,9 +186,11 @@
                 <br>
                 <hr>
                 <br>
-                <li><h3>Game Development</h3></li>
+                <li>
+                  <h3>Game Development</h3>
+                </li>
                 <p>Well Game Development is a huge subject and Unity software alone has a vast exspansive level of understanding required. </p>
-                <ul style="list-style: inside circle;");>
+                <ul style="list-style: inside circle;" );>
                   <li>Learning Python in Unity</li>
                   <li>Shader Development from Scratch for Unity with Cg</li>
                   <li>Learn to write Unity Compute Shaders</li>
@@ -186,9 +206,12 @@
                 <br>
                 <hr>
                 <br>
-                <li><h3>Web Development</h3></li>
-                <p>I got this course so I could work on making my website modern and pretty. Aestics are key for a good impression. Bootstrap 5 is still in <a href="https://blog.getbootstrap.com/2021/02/10/bootstrap-5-beta-2/">Bootstrap 5 Beta</a>. this should give me enough grounding for a good while.</p>
-                <ul style="list-style: inside;");>
+                <li>
+                  <h3>Web Development</h3>
+                </li>
+                <p>I got this course so I could work on making my website modern and pretty. Aestics are key for a good impression. Bootstrap 5 is still in <a href="https://blog.getbootstrap.com/2021/02/10/bootstrap-5-beta-2/">Bootstrap 5 Beta</a>.
+                  this should give me enough grounding for a good while.</p>
+                <ul style="list-style: inside;" );>
                   <li>Learn By Building Bootstrap 5</li>
                 </ul>
               </ol>
@@ -199,45 +222,45 @@
 
 
 
+        </div>
+
       </div>
+      <br>
 
-    </div>
-    <br>
+      <div class="blog-post" id="shaders">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Unity HLSL Shaders</h1>
+            <br>
+            <p>Recently I have been learning all about computer shader and graphics</p>
+            <p>I was trying to understand how to make assets and graphics for games I may utilise down the road.</p>
+            <p>One thing I have learned about shader is the amount of math knowledge required. This was a real eye opening.</p>
+            <p>I have been studying several courses</p>
 
-    <div class="blog-post">
-      <div class="card">
-        <div class="card-body">
-          <h1 class="card-title">Unity HLSL Shaders</h1>
-          <br>
-          <p>Recently I have been learning all about computer shader and graphics</p>
-          <p>I was trying to understand how to make assets and graphics for games I may utilise down the road.</p>
-          <p>One thing I have learned about shader is the amount of math knowledge required. This was a real eye opening.</p>
-          <p>I have been studying several courses</p>
+            <ul>
+              <li><a href="https://udemy.com/course/unity-shaders">Shader Development from Scratch for Unity with Cg</a>
+              </li>
+              <li><a href="https://udemy.com/course/compute-shaders">Learn to Write Unity Compute Shaders</a>
+              </li>
+            </ul>
 
-          <ul>
-            <li><a href="https://udemy.com/course/unity-shaders">Shader Development from Scratch for Unity with Cg</a>
-            </li>
-            <li><a href="https://udemy.com/course/compute-shaders">Learn to Write Unity Compute Shaders</a>
-            </li>
-          </ul>
+            <br>
+            <hr>
+            <h3>Things I made on the courses.</h3>
+            <p>Here is are some of the results from these tutorials</p>
+            <br>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-repsponsive-item" src="videos/trimmed-waves.mp4" title="shader waves" allowfullscreen></iframe>
+            </div>
+            <div class="container pt-4">
+              <p>This is actually made with just computer fragment shaders and 2 textures in unity. </p>
+              <p>I have captured at an angle and it looks quite impressive.</p>
+              <div class="">
+                <p>Here is the waves shader code</p>
+                <p>I thought I would show as an example as a reference as such.</p>
+                <p>I didn't write this, but with the course I have a decent understanding of how it works.</p>
 
-          <br>
-          <hr>
-          <h3>Things I made on the courses.</h3>
-          <p>Here is are some of the results from these tutorials</p>
-          <br>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-repsponsive-item"  src="videos/trimmed-waves.mp4" title="shader waves" allowfullscreen></iframe>
-          </div>
-          <div class="container pt-4">
-            <p>This is actually made with just computer fragment shaders and 2 textures in unity. </p>
-            <p>I have captured at an angle and it looks quite impressive.</p>
-            <div class="">
-              <p>Here is the waves shader code</p>
-              <p>I thought I would show as an example as a reference as such.</p>
-              <p>I didn't write this, but with the course I have a decent understanding of how it works.</p>
-
-          </div>
+              </div>
 
               <br>
               <hr>
@@ -323,27 +346,27 @@ Shader "Holistic/Waves"
             </div>
 
 
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-repsponsive-item"  src="videos/trimmed-stars.mp4" title="Compute shader stars" allowfullscreen></iframe>
-          </div>
-          <div class="container pt-4">
-            <p bg="warning">This is not my code this is from Nik Lever Compute  <a href="https://www.udemy.com/course/compute-shaders">Shader Course</a>.
-            </p>
-            <p>I thought I would show to give context or reference on how the things I have been studying.</p>
-            <p>The C# cs code on CPU side passes releveant data to GPU compute shader code.
-              e.g Time variables, kernel, Compute buffer size, the stars Prefab gameobject. </p>
-            <p>The compute shader using a sudo random function it take the data render the starting position and sends out the &#x2B50; in many directions, once they reach the edge of the circle they reverse the vector/direction, which keeps the
-              &#x2B50; bouncing &#8734;.</p>
-          </div>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-repsponsive-item" src="videos/trimmed-stars.mp4" title="Compute shader stars" allowfullscreen></iframe>
+            </div>
+            <div class="container pt-4">
+              <p bg="warning">This is not my code this is from Nik Lever Compute <a href="https://www.udemy.com/course/compute-shaders">Shader Course</a>.
+              </p>
+              <p>I thought I would show to give context or reference on how the things I have been studying.</p>
+              <p>The C# cs code on CPU side passes releveant data to GPU compute shader code.
+                e.g Time variables, kernel, Compute buffer size, the stars Prefab gameobject. </p>
+              <p>The compute shader using a sudo random function it take the data render the starting position and sends out the &#x2B50; in many directions, once they reach the edge of the circle they reverse the vector/direction, which keeps the
+                &#x2B50; bouncing &#8734;.</p>
+            </div>
 
-          <br>
-          <hr>
-          <figure>
-            <figcaption>
-              <h4>Orbiting Stars CS Code</h4>
-            </figcaption>
             <br>
-            <pre>
+            <hr>
+            <figure>
+              <figcaption>
+                <h4>Orbiting Stars CS Code</h4>
+              </figcaption>
+              <br>
+              <pre>
                 <code contenteditable spellcheck="false">
 using System.Collections;
 using System.Collections.Generic;
@@ -403,14 +426,14 @@ public class OrbitingStars : MonoBehaviour
 
                 </code>
               </pre>
-          </figure>
-          <br>
-          <figure>
-            <figcaption>
-              <h4>Orbiting Stars Compute Code</h4>
-            </figcaption>
+            </figure>
             <br>
-            <pre>
+            <figure>
+              <figcaption>
+                <h4>Orbiting Stars Compute Code</h4>
+              </figcaption>
+              <br>
+              <pre>
                 <code contenteditable spellcheck="false">
 #pragma kernel OrbitingStars
 
@@ -446,100 +469,100 @@ Result[id.x] = pos * 2;
 
                 </code>
               </pre>
-          </figure>
-          <br>
-          <hr>
-
-          <div class="">
-            <p>These following images are some of outcome on utilising custom shaders.</p>
-            <p>There is a lot of bunny images but this is an alternative callback to the standford bunny.</p>
-            <a href="https://en.wikipedia.org/wiki/Stanford_bunny">Wikipedia link to the Standford Bunny</a>
+            </figure>
             <br>
             <hr>
 
-          </div>
-          <br>
-          <div class="col mx-0">
-            <img class="img-thumbnail" src="images/blog/basicblinn-bunny.png" alt="">
+            <div class="">
+              <p>These following images are some of outcome on utilising custom shaders.</p>
+              <p>There is a lot of bunny images but this is an alternative callback to the standford bunny.</p>
+              <a href="https://en.wikipedia.org/wiki/Stanford_bunny">Wikipedia link to the Standford Bunny</a>
+              <br>
+              <hr>
+
+            </div>
             <br>
-            <p class="p-2">This shader example is using custom specular shader. Nothing to special.</p>
+            <div class="col mx-0">
+              <img class="img-thumbnail" src="images/blog/basicblinn-bunny.png" alt="">
+              <br>
+              <p class="p-2">This shader example is using custom specular shader. Nothing to special.</p>
+              <hr>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/bumpy-bunny.png" alt="">
+              <br>
+              <p class="p-2">This shader is using a bump map technique. Utilising a normal map blended.</p>
+              <hr>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/bunnies-in-space.png" alt="">
+              <br>
+              <p class="p-2">This shader is using specular shader with space themed cubed skybox.</p>
+              <hr>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/disco-bunny.png" alt="">
+              <br>
+              <p class="p-2">Its's so pretty this shaded is using a bumped enviromental blended shader.</p>
+              <hr>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/frag-extruded-bunny.png" alt="">
+              <br>
+              <p class="p-2">This shader is using a extrusion on the mesh but on the geometry.</p>
+              <hr>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/glass-distortion-bunny.png" alt="">
+              <br>
+              <p class="p-2">Its really hard to see but this shader is trying to cause some refaction or distorion when looking through glass at a object behind for a realistic effect.</p>
+              <hr>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/pyschadelic-bunny.png" alt="">
+
+              <br>
+              <p class="p-2">All I can say its wow, a plasma lava lamp shader effect that uses sin and cos wave to alter the rgb colours.</p>
+              <hr>
+
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/striped-depth-bunny.png" alt="">
+              <br>
+              <p class="p-2">This shader was a mix of the striped bunny and rim lighting effect.</p>
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/striped-low-bunny.png" alt="">
+
+            </div>
+            <br>
+            <div class="col">
+              <img class="img-thumbnail" src="images/blog/striped-top-bunny.png" alt="">
+
+            </div>
+            <br>
+            <p class="p-2">These last shaders are a little hard to explain, basically the shader is lit at specific height in world space. </p>
+            <p>My moving the bunny up and down the striped effect changes depending on the height.</p>
+            <p>I make make a video in the future for better visuals.</p>
             <hr>
 
           </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/bumpy-bunny.png" alt="">
-            <br>
-            <p class="p-2">This shader is using a bump map technique. Utilising a normal map blended.</p>
-            <hr>
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/bunnies-in-space.png" alt="">
-            <br>
-            <p class="p-2">This shader is using specular shader with space themed cubed skybox.</p>
-            <hr>
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/disco-bunny.png" alt="">
-            <br>
-            <p class="p-2">Its's so pretty this shaded is using a bumped enviromental blended shader.</p>
-            <hr>
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/frag-extruded-bunny.png" alt="">
-            <br>
-            <p class="p-2">This shader is using a extrusion on the mesh but on the geometry.</p>
-            <hr>
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/glass-distortion-bunny.png" alt="">
-            <br>
-            <p class="p-2">Its really hard to see but this shader is trying to cause some refaction or distorion when looking through glass at a object behind for a realistic effect.</p>
-            <hr>
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/pyschadelic-bunny.png" alt="">
-
-            <br>
-            <p class="p-2">All I can say its wow, a plasma lava lamp shader effect that uses sin and cos wave to alter the rgb colours.</p>
-            <hr>
-
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/striped-depth-bunny.png" alt="">
-            <br>
-            <p class="p-2">This shader was a mix of the striped bunny and rim lighting effect.</p>
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail"src="images/blog/striped-low-bunny.png" alt="">
-
-          </div>
-          <br>
-          <div class="col">
-            <img class="img-thumbnail" src="images/blog/striped-top-bunny.png" alt="">
-
-          </div>
-          <br>
-          <p class="p-2">These last shaders are a little hard to explain, basically the shader is lit at specific height in world space. </p>
-          <p>My moving the bunny up and down the striped effect changes depending on the height.</p>
-          <p>I make make a video in the future for better visuals.</p>
-          <hr>
-
-        </div>
 
         </div><!-- card-body -->
 
@@ -553,7 +576,8 @@ Result[id.x] = pos * 2;
       <div class="card">
         <div class="card-body">
           <h1 class="card-title">Programming</h1>
-          <p>After doing some unity projects and games I realised my programming was not up to scratch espcially my C# skills. So I invested my time into fully understanding the data types, program flow and structure. I may have learned more in the last 8 months than my three years at university. Only once you get your hand dirty  do you actually begin to figure stuff out. By all means I am not a natural programmer, generally I just try to keep it simple and functional.</p>
+          <p>After doing some unity projects and games I realised my programming was not up to scratch espcially my C# skills. So I invested my time into fully understanding the data types, program flow and structure. I may have learned more in the
+            last 8 months than my three years at university. Only once you get your hand dirty do you actually begin to figure stuff out. By all means I am not a natural programmer, generally I just try to keep it simple and functional.</p>
           <br>
           <ul>
             <li><a class="blog-link" href="https://udemy.com/course/complete-csharp-masterclass">Complete C# Masterclass</a></li>
@@ -640,7 +664,9 @@ Result[id.x] = pos * 2;
           <img class="img-thumbnail" src="images/blog/city-street.png" alt="oil painting of burano">
           <p>This is arcylic painting of burano.</p>
           <p>not quite comparable to </p>
-          <img class="img-thumbnail" src="https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhkMmNhMzNlOWNhOTQ2ZGFmNV8xNDAwNDg3MTU0MF82NzFiODcxODVmX2suanBnIl0sWyJwIiwidGh1bWIiLCI1ODB4NTgwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0" alt="real image of burano street">
+          <img class="img-thumbnail"
+            src="https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhkMmNhMzNlOWNhOTQ2ZGFmNV8xNDAwNDg3MTU0MF82NzFiODcxODVmX2suanBnIl0sWyJwIiwidGh1bWIiLCI1ODB4NTgwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0"
+            alt="real image of burano street">
           <br>
 
         </div>
@@ -708,8 +734,8 @@ Result[id.x] = pos * 2;
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
   <script src="js/offcanvas.js"></script>
 
 </body>
